@@ -8,21 +8,13 @@ This C++ program implements a Tetromino class that represents Tetris pieces. The
 
 ### Tetromino Class Functions
 
-* constructor:
+* constructor: Takes a C++11 strong enum type parameter to represent one of the Tetris pieces (I to Z).
 
-- Takes a C++11 strong enum type parameter to represent one of the Tetris pieces (I to Z).
+* rotate: Takes a parameter to rotate the tetromino either left or right.
 
-* rotate:
+* print: Prints the current tetromino on the screen.
 
-- Takes a parameter to rotate the tetromino either left or right.
-
-* print:
-
-- Prints the current tetromino on the screen.
-
-* canFit:
-
-- Takes another tetromino and the relative position of the other tetromino.
+* canFit: Takes another tetromino and the relative position of the other tetromino.
 Checks if the other tetromino can fit at the specified position without any holes.
 Returns true if it can fit, otherwise returns false.
 
