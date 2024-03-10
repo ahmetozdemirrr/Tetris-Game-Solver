@@ -8,13 +8,17 @@ Continuing from Part 1, this C++ program extends the Tetris game by adding a Tet
 
 ### Tetris Class Functions
 
-* Constructors: Takes the rectangular size of the Tetris board.
+* Constructors: 
+	- Takes the rectangular size of the Tetris board.
 
-* Add: Adds a Tetromino to the board. The Tetromino is added at the top row in the middle.
+* Add:
+	- Adds a Tetromino to the board. The Tetromino is added at the top row in the middle.
 
-* Fit: Rotates and moves the added Tetromino to produce the best fit when dropped to the bottom.
+* Fit: 
+	- Rotates and moves the added Tetromino to produce the best fit when dropped to the bottom.
 
-* Draw:  the Tetris board, optionally starting the drawing from the top.
+* Draw: 
+	- Draws the Tetris board, optionally starting the drawing from the top.
 
 * Animate:
 	- Animates the added Tetromino dropping to the bottom of the board.
